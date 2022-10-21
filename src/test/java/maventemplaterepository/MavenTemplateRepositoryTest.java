@@ -1,5 +1,4 @@
-package com.github.romankh3.maventemplaterepository;
-
+package maventemplaterepository;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -14,5 +13,4 @@ public class MavenTemplateRepositoryTest {
         MavenTemplateRepository main = new MavenTemplateRepository();
         Assertions.assertNotNull(main);
     }
-
 }
