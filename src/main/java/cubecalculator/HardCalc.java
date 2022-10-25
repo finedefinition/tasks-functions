@@ -31,7 +31,7 @@ public class HardCalc {
 
     public static long ninthDegree(long a) {
         System.out.println();
-        long result = cube(a) * cube(a) * cube(a);
+        long result = cube(cube(a));
         System.out.println("Result to the 9th power " + result);
         return result;
     }
